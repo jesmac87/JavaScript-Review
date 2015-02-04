@@ -38,6 +38,9 @@ var songs =
 //Write a 'getter' function that returns the songs array.
 
   //code here
+  var getter = function () {
+    return songs;
+  };
 
 
 //Now write a setter that takes in two paramaters.
@@ -46,3 +49,11 @@ var songs =
 //Once you do that, call your callback (getter) function which should get the songs and return them.
   
   //code here
+
+  //new song object
+  var bestSong = {"artistName":"Tool", "song": "Schism"};
+
+  var setter = function (songObject, cb) {
+    songs.push(songObject);
+    return cb();
+  };
