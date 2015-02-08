@@ -17,6 +17,10 @@ Write a function that accepts a multi dimensional array and returns a flattened 
 flatten([1, 2, [3, [4], 5, 6], 7]) // [1, 2, 3, 4, 5, 6, 7]
 
 */
+var arrayToJoin = [1, 2, [3, [4], 5, 6], 7];
+var flatten = function(arr, newArr) {
+
+}
 
 
 
